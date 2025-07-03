@@ -1,9 +1,9 @@
-# CustomBpSystem
+# Custom Blueprint System
 Document:Download[Custom Blueprint SystemEN.docx](https://github.com/user-attachments/files/21033451/Custom.Blueprint.SystemEN.docx)
 [Custom Blueprint SystemZH.docx…]()
 
 
-1.How to enter the demo demonstration?
+#1.How to enter the demo demonstration?
 
 Open Custom Blueprint System/DEMO/Map/DemoMap. After entering theexample
 
@@ -22,7 +22,7 @@ Right-click Input Pin:Connect to pin (completes connection started with left-cli
 
 
 
-2.How to add a custom BPNode?
+#2.How to add a custom BPNode?
 
 (1)Open Custom Blueprint System/WBP/Enum/E_BPNodeType. Add a custom enumeration name for you.
 
@@ -51,7 +51,7 @@ Right-click Input Pin:Connect to pin (completes connection started with left-cli
 
 
 
-3.How to change the background image of the Events Graph?
+#3.How to change the background image of the Events Graph?
 
 Open Custom Blueprint System/WBP/WBP_EventsGraph. You just need to modify the Brush of the Background Panel.
 
@@ -60,7 +60,7 @@ Open Custom Blueprint System/WBP/WBP_EventsGraph. You just need to modify the Br
 
 
 
-4.How to change the connections between nodes?
+#4.How to change the connections between nodes?
 
    Open Custom Blueprint System/WBP/BPML_BP. Modify Calculation Lines
    
@@ -69,7 +69,7 @@ Open Custom Blueprint System/WBP/WBP_EventsGraph. You just need to modify the Br
 
 
 
-5.Extended application:
+#5.Extended application:
 
 (1) You can use Calculate Muse Offset in your other UI, such as map. This MACROS can map the mouse viewport position to the UI panel that has been scaled and offset at different resolutions, in order to achieve smooth movement of the UI on the scaled and offset UI panel.
 
