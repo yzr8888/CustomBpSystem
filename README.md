@@ -1,6 +1,8 @@
 # Custom Blueprint System2.0
-Document:Download[CustomBpSystem2.0EN.docx](https://github.com/user-attachments/files/24016389/CustomBpSystem2.0EN.docx)[CustomBpSystem2.0CH.docx](https://github.com/user-attachments/files/24016392/CustomBpSystem2.0CH.docx)
+Document:Download EN:[CustomBpSystem2.0EN.docx](https://github.com/user-attachments/files/24016389/CustomBpSystem2.0EN.docx) CH:[CustomBpSystem2.0CH.docx](https://github.com/user-attachments/files/24016392/CustomBpSystem2.0CH.docx)
+
 I.Quick Start
+
 1. Open the CustomBpSystem folder.
 
 <img width="471" height="206" alt="image" src="https://github.com/user-attachments/assets/71e50de0-0a76-4037-918c-1a9acac03ff8" />
