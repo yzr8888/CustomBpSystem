@@ -1,7 +1,14 @@
 # Custom Blueprint Runtime
 
-Standalone UE 5.3-5.7 runtime plugin for versioned node schemas and multiple execution
+Standalone UE 5.3-5.8 runtime plugin for versioned node schemas and multiple execution
 backends. It does not depend on ScriptRunner, NodeToCode, or another runtime plugin.
+
+## Engine dependency
+
+The plugin uses Unreal Engine's built-in `ProceduralMeshComponent` plugin for runtime
+mesh creation, OBJ import/export, vertex editing, and replicated procedural model actors.
+Enable the **Procedural Mesh Component** plugin in the project before using the runtime
+modeling APIs. No external download is required.
 
 ## Implemented runtime
 
@@ -429,11 +436,11 @@ can be added after the scheduler and graph versioning are operational.
 
 ## Verification
 
-The plugin source has been compiled successfully for UE 5.3, 5.4, 5.5, 5.6,
-and 5.7 on Win64 in Editor, Development, and Shipping configurations. Each
-release archive carries binaries and content produced or validated by its target
-engine version. UE 5.3 and 5.4 use node assets regenerated natively by that
-engine so newer package versions are never copied backward.
+The release set targets UE 5.3, 5.4, 5.5, 5.6, 5.7, and 5.8 on Win64. Each
+archive is a source package tagged for its target engine version; Unreal regenerates
+the module binaries when the project is built. UE 5.3 and 5.4 use node assets
+regenerated natively by those engines so newer package versions are never copied
+backward.
 
 Project-local test graphs and node executors with hard references to `/Game`
 assets are intentionally excluded from marketplace archives. Author reusable
